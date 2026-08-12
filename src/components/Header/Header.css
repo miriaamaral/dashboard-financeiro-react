@@ -1,0 +1,75 @@
+.header-container {
+  background-color: var(--color-background, #F3F4F6);
+  padding: 2rem 1rem;
+  width: 100%;
+}
+
+.header-content {
+  max-width: 1120px;
+  margin: 0 auto;
+}
+
+.user-greeting h1 {
+  font-size: 1.75rem;
+  color: var(--color-text-main, #1F2937);
+  margin-bottom: 0.25rem;
+}
+
+.user-greeting p {
+  color: var(--color-text-muted, #6B7280);
+  margin-bottom: 2rem;
+}
+
+/* Container que usa CSS Grid para deixar os cards lado a lado no Desktop e um embaixo do outro no Mobile */
+.summary-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1.5rem;
+}
+
+/* O Estilo Base de todos os Cards */
+.card {
+  background: var(--color-surface, #FFFFFF);
+  padding: 1.5rem 2rem;
+  border-radius: var(--border-radius-md, 12px);
+  box-shadow: var(--shadow-sm, 0 4px 6px -1px rgba(0, 0, 0, 0.05));
+  color: var(--color-text-main, #1F2937);
+}
+
+.card header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+.card header span {
+  font-size: 1rem;
+  color: var(--color-text-muted, #6B7280);
+}
+
+.card strong {
+  display: block;
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: 3rem;
+}
+
+/* Cores específicas dos ícones (Lucide React) */
+.icon-green {
+  color: var(--color-primary, #10B981);
+}
+
+.icon-red {
+  color: var(--color-expense, #EF4444);
+}
+
+/* O Card de Total pode ter um fundo destacado se quisermos */
+.card-total {
+  background-color: var(--color-text-main, #1F2937);
+  color: #fff;
+}
+
+.card-total header span {
+  color: #D1D5DB; /* Um cinza mais claro para ler no fundo escuro */
+}

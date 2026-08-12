@@ -1,11 +1,12 @@
-import './App.css'
+import { Header } from './components/Header';
+import './App.css';
 
 function App() {
   return (
     <main>
-      <h1>Dashboard Financeiro 🚀</h1>
+      <Header />
     </main>
-  )
+  );
 }
 
-export default App
+export default App;
