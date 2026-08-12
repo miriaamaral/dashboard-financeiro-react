@@ -1,0 +1,86 @@
+.chart-container {
+  background: var(--color-surface);
+  border-radius: var(--border-radius-md);
+  box-shadow: var(--shadow-soft);
+  border: 1px solid rgba(226, 232, 240, 0.8);
+  padding: 1.5rem;
+  margin-top: 1rem;
+  position: relative;
+  z-index: 10;
+}
+
+.chart-header {
+  margin-bottom: 2rem;
+}
+
+.chart-header h2 {
+  font-size: 1.25rem;
+  color: var(--color-text-main);
+  font-weight: 600;
+  margin-bottom: 0.25rem;
+}
+
+.chart-header p {
+  font-size: 0.9rem;
+  color: var(--color-text-muted);
+}
+
+.chart-wrapper {
+  height: 350px;
+  width: 100%;
+}
+
+/* Esconde as linhas e textos em telas muito pequenas (Mobile First responsivo) */
+@media (max-width: 600px) {
+  .chart-container {
+    padding: 1rem;
+    margin-top: 1rem;
+  }
+  .chart-wrapper {
+    height: 250px;
+  }
+}
+
+/* O Tooltip (Balão flutuante UX) */
+.custom-tooltip {
+  background-color: rgba(255, 255, 255, 0.95);
+  border: 1px solid #E2E8F0;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(4px); /* Efeito de vidro moderno */
+}
+
+.tooltip-label {
+  font-weight: 600;
+  color: var(--color-text-main);
+  margin-bottom: 0.5rem;
+  border-bottom: 1px solid #E2E8F0;
+  padding-bottom: 0.25rem;
+}
+
+.tooltip-value {
+  font-size: 0.95rem;
+  margin-top: 0.25rem;
+}
+
+/* Efeito de esqueleto carregando (Feedback visual) */
+.skeleton-loading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 400px;
+  background: linear-gradient(90deg, #f0f0f0 25%, #e0e0e0 50%, #f0f0f0 75%);
+  background-size: 200% 100%;
+  animation: loading 1.5s infinite;
+  color: var(--color-text-muted);
+}
+
+@keyframes loading {
+  0% {
+    background-position: 200% 0;
+  }
+  100% {
+    background-position: -200% 0;
+  }
+}
