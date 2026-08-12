@@ -1,0 +1,36 @@
+{
+  "transactions": [
+    {
+      "id": "1",
+      "title": "Salário CodeMundi",
+      "amount": 4500,
+      "type": "income",
+      "category": "Trabalho",
+      "date": "2026-08-01T09:00:00Z"
+    },
+    {
+      "id": "2",
+      "title": "Mercado Assaí",
+      "amount": 850.50,
+      "type": "expense",
+      "category": "Alimentação",
+      "date": "2026-08-05T14:30:00Z"
+    },
+    {
+      "id": "3",
+      "title": "Conta de Luz",
+      "amount": 145.20,
+      "type": "expense",
+      "category": "Casa",
+      "date": "2026-08-10T10:15:00Z"
+    },
+    {
+      "id": "4",
+      "title": "Uber (Reunião Cliente)",
+      "amount": 45.00,
+      "type": "expense",
+      "category": "Transporte",
+      "date": "2026-08-11T08:30:00Z"
+    }
+  ]
+}
