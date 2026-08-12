@@ -1,3 +1,29 @@
+:root {
+  /* Fundo da Aplicação: Cinza Azulado bem claro (Gera descanso visual) */
+  --color-background: #F8FAFC;
+  --color-surface: #FFFFFF;
+
+  /* Cartão de Destaque (Saldo): Verde Menta Profundo (Calmaria e Segurança) */
+  --color-brand-gradient: linear-gradient(135deg, #0F766E 0%, #047857 100%);
+  --color-brand-text: #FFFFFF;
+
+  /* Semântica de Entradas (Receitas): Verde Botânico Suave */
+  --color-income: #059669;
+  --color-income-bg: #ECFDF5;
+
+  /* Semântica de Saídas (Despesas): Terracota/Coral Suave (Evita o pânico do vermelho alarme) */
+  --color-expense: #E11D48;
+  --color-expense-bg: #FFF1F2;
+
+  /* Tipografia Suave */
+  --color-text-main: #0F172A;
+  --color-text-muted: #64748B;
+
+  /* Arredondamento e Sombras Orgânicas */
+  --border-radius-md: 16px;
+  --shadow-soft: 0 10px 15px -3px rgba(0, 0, 0, 0.03), 0 4px 6px -4px rgba(0, 0, 0, 0.02);
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -5,7 +31,8 @@
 }
 
 body {
-  background-color: #F3F4F6;
-  font-family: 'Inter', 'Roboto', sans-serif;
+  background-color: var(--color-background);
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  color: var(--color-text-main);
   -webkit-font-smoothing: antialiased;
 }

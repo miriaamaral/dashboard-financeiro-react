@@ -1,6 +1,5 @@
 .header-container {
-  background-color: var(--color-background, #F3F4F6);
-  padding: 2rem 1rem;
+  padding: 2.5rem 1.5rem 1.5rem;
   width: 100%;
 }
 
@@ -10,66 +9,99 @@
 }
 
 .user-greeting h1 {
-  font-size: 1.75rem;
-  color: var(--color-text-main, #1F2937);
-  margin-bottom: 0.25rem;
+  font-size: 1.875rem;
+  font-weight: 700;
+  color: var(--color-text-main);
+  letter-spacing: -0.02em;
 }
 
 .user-greeting p {
-  color: var(--color-text-muted, #6B7280);
+  color: var(--color-text-muted);
+  font-size: 1rem;
+  margin-top: 0.25rem;
   margin-bottom: 2rem;
 }
 
-/* Container que usa CSS Grid para deixar os cards lado a lado no Desktop e um embaixo do outro no Mobile */
+/* Grid com suporte responsivo fluido */
 .summary-cards {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
   gap: 1.5rem;
 }
 
-/* O Estilo Base de todos os Cards */
+/* Base de todos os Cards */
 .card {
-  background: var(--color-surface, #FFFFFF);
-  padding: 1.5rem 2rem;
-  border-radius: var(--border-radius-md, 12px);
-  box-shadow: var(--shadow-sm, 0 4px 6px -1px rgba(0, 0, 0, 0.05));
-  color: var(--color-text-main, #1F2937);
+  background: var(--color-surface);
+  padding: 1.75rem;
+  border-radius: var(--border-radius-md);
+  box-shadow: var(--shadow-soft);
+  border: 1px solid rgba(226, 232, 240, 0.8);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-2px);
 }
 
 .card header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-bottom: 1rem;
+  margin-bottom: 1.25rem;
 }
 
 .card header span {
-  font-size: 1rem;
-  color: var(--color-text-muted, #6B7280);
+  font-size: 0.95rem;
+  font-weight: 500;
+  color: var(--color-text-muted);
 }
 
 .card strong {
   display: block;
-  font-size: 2rem;
-  font-weight: 600;
-  line-height: 3rem;
+  font-size: 2.25rem;
+  font-weight: 700;
+  letter-spacing: -0.03em;
 }
 
-/* Cores específicas dos ícones (Lucide React) */
-.icon-green {
-  color: var(--color-primary, #10B981);
+/* Pílula para o ícone de Entradas */
+.icon-badge-green {
+  background-color: var(--color-income-bg);
+  color: var(--color-income);
+  padding: 0.6rem;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.icon-red {
-  color: var(--color-expense, #EF4444);
+/* Pílula para o ícone de Saídas */
+.icon-badge-red {
+  background-color: var(--color-expense-bg);
+  color: var(--color-expense);
+  padding: 0.6rem;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-/* O Card de Total pode ter um fundo destacado se quisermos */
+/* Card Principal (Saldo Total) Refinado para Acolhimento */
 .card-total {
-  background-color: var(--color-text-main, #1F2937);
-  color: #fff;
+  background: var(--color-brand-gradient);
+  color: var(--color-brand-text);
+  border: none;
 }
 
 .card-total header span {
-  color: #D1D5DB; /* Um cinza mais claro para ler no fundo escuro */
+  color: rgba(255, 255, 255, 0.85);
+}
+
+.card-total .icon-badge-total {
+  background-color: rgba(255, 255, 255, 0.15);
+  color: #FFFFFF;
+  padding: 0.6rem;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
