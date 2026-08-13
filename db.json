@@ -3,7 +3,7 @@
     {
       "id": "1",
       "titulo": "Cobasi - Ração Golden e Areia gata",
-      "valor": 118.50,
+      "valor": 118.5,
       "tipo": "despesa",
       "categoria": "Pet",
       "data": "2026-08-02T11:20:00Z",
@@ -12,7 +12,7 @@
     {
       "id": "2",
       "titulo": "Farmácia - Fraldas Pampers Ajuste Total",
-      "valor": 149.90,
+      "valor": 149.9,
       "tipo": "despesa",
       "categoria": "Bebê",
       "data": "2026-08-05T16:45:00Z",
@@ -21,7 +21,7 @@
     {
       "id": "3",
       "titulo": "Uber - Consulta Pediatra Bebê",
-      "valor": 34.80,
+      "valor": 34.8,
       "tipo": "despesa",
       "categoria": "Transporte",
       "data": "2026-08-07T09:15:00Z",
@@ -30,7 +30,7 @@
     {
       "id": "4",
       "titulo": "Salário & Renda Familiar",
-      "valor": 4200.00,
+      "valor": 4200,
       "tipo": "receita",
       "categoria": "Renda",
       "data": "2026-08-10T08:00:00Z",
@@ -39,7 +39,7 @@
     {
       "id": "5",
       "titulo": "Vale Refeição (VR)",
-      "valor": 915.00,
+      "valor": 915,
       "tipo": "receita",
       "categoria": "Benefícios",
       "data": "2026-08-10T08:05:00Z",
@@ -48,7 +48,7 @@
     {
       "id": "6",
       "titulo": "Vale Alimentação (VA)",
-      "valor": 315.00,
+      "valor": 315,
       "tipo": "receita",
       "categoria": "Benefícios",
       "data": "2026-08-10T08:05:00Z",
@@ -57,7 +57,7 @@
     {
       "id": "7",
       "titulo": "Financiamento Ap (Caixa Econômica)",
-      "valor": 680.00,
+      "valor": 680,
       "tipo": "despesa",
       "categoria": "Moradia",
       "data": "2026-08-10T10:00:00Z",
@@ -66,7 +66,7 @@
     {
       "id": "8",
       "titulo": "Condomínio Edifício Parque SP",
-      "valor": 415.00,
+      "valor": 415,
       "tipo": "despesa",
       "categoria": "Moradia",
       "data": "2026-08-10T10:15:00Z",
@@ -75,7 +75,7 @@
     {
       "id": "22",
       "titulo": "Transporte Escolar (Tio João)",
-      "valor": 250.00,
+      "valor": 250,
       "tipo": "despesa",
       "categoria": "Educação",
       "data": "2026-08-10T11:00:00Z",
@@ -84,7 +84,7 @@
     {
       "id": "9",
       "titulo": "Enel - Conta de Luz/Energia",
-      "valor": 162.40,
+      "valor": 162.4,
       "tipo": "despesa",
       "categoria": "Moradia",
       "data": "2026-08-11T11:00:00Z",
@@ -93,7 +93,7 @@
     {
       "id": "10",
       "titulo": "Sabesp - Conta de Água",
-      "valor": 84.20,
+      "valor": 84.2,
       "tipo": "despesa",
       "categoria": "Moradia",
       "data": "2026-08-11T11:05:00Z",
@@ -102,7 +102,7 @@
     {
       "id": "11",
       "titulo": "Comgás - Gás Encanado",
-      "valor": 61.80,
+      "valor": 61.8,
       "tipo": "despesa",
       "categoria": "Moradia",
       "data": "2026-08-11T11:10:00Z",
@@ -111,7 +111,7 @@
     {
       "id": "12",
       "titulo": "Claro - Internet Fibra 500MB",
-      "valor": 119.90,
+      "valor": 119.9,
       "tipo": "despesa",
       "categoria": "Moradia",
       "data": "2026-08-12T14:00:00Z",
@@ -120,7 +120,7 @@
     {
       "id": "13",
       "titulo": "Assaí Atacadista - Compra Mensal",
-      "valor": 800.00,
+      "valor": 800,
       "tipo": "despesa",
       "categoria": "Alimentação",
       "data": "2026-08-12T19:30:00Z",
@@ -129,7 +129,7 @@
     {
       "id": "23",
       "titulo": "Droga Raia - Perfumaria e Higiene (Família)",
-      "valor": 135.90,
+      "valor": 135.9,
       "tipo": "despesa",
       "categoria": "Saúde/Beleza",
       "data": "2026-08-14T18:30:00Z",
@@ -138,7 +138,7 @@
     {
       "id": "14",
       "titulo": "Feira Livre - Frutas e Legumes",
-      "valor": 115.00,
+      "valor": 115,
       "tipo": "despesa",
       "categoria": "Alimentação",
       "data": "2026-08-15T10:00:00Z",
@@ -147,7 +147,7 @@
     {
       "id": "15",
       "titulo": "Lavanderia OMO do Prédio (Ficha Lavo/Seco)",
-      "valor": 36.00,
+      "valor": 36,
       "tipo": "despesa",
       "categoria": "Moradia",
       "data": "2026-08-16T15:00:00Z",
@@ -156,7 +156,7 @@
     {
       "id": "16",
       "titulo": "Uber - Ida e Volta Passeio Parque Ibirapuera",
-      "valor": 58.60,
+      "valor": 58.6,
       "tipo": "despesa",
       "categoria": "Transporte",
       "data": "2026-08-17T11:00:00Z",
@@ -165,7 +165,7 @@
     {
       "id": "17",
       "titulo": "Almoço Sesc / Passeio Ibirapuera",
-      "valor": 204.50,
+      "valor": 204.5,
       "tipo": "despesa",
       "categoria": "Lazer",
       "data": "2026-08-17T14:20:00Z",
@@ -174,7 +174,7 @@
     {
       "id": "24",
       "titulo": "Barbearia do Bairro (Cabelo e Barba)",
-      "valor": 70.00,
+      "valor": 70,
       "tipo": "despesa",
       "categoria": "Cuidados Pessoais",
       "data": "2026-08-18T19:00:00Z",
@@ -183,7 +183,7 @@
     {
       "id": "18",
       "titulo": "Drogasil - Lenços Umedecidos e Sabonete Bebê",
-      "valor": 78.30,
+      "valor": 78.3,
       "tipo": "despesa",
       "categoria": "Bebê",
       "data": "2026-08-20T17:10:00Z",
@@ -192,7 +192,7 @@
     {
       "id": "19",
       "titulo": "Uber - Visita à Avó da Criança",
-      "valor": 32.40,
+      "valor": 32.4,
       "tipo": "despesa",
       "categoria": "Transporte",
       "data": "2026-08-23T14:00:00Z",
@@ -201,7 +201,7 @@
     {
       "id": "20",
       "titulo": "Passeio Fim de Semana - Espaço Infantil & Lanche",
-      "valor": 212.00,
+      "valor": 212,
       "tipo": "despesa",
       "categoria": "Lazer",
       "data": "2026-08-24T16:00:00Z",
@@ -210,11 +210,21 @@
     {
       "id": "21",
       "titulo": "Lavanderia OMO do Prédio (Ficha Lavo/Seco)",
-      "valor": 28.00,
+      "valor": 28,
       "tipo": "despesa",
       "categoria": "Moradia",
       "data": "2026-08-28T16:30:00Z",
       "formaPagamento": "App Lavanderia"
+    },
+    {
+      "titulo": "Shopee",
+      "valor": 100,
+      "categoria": "Casa",
+      "formaPagamento": "PIX",
+      "tipo": "receita",
+      "data": "2026-08-13T14:45:19.237Z",
+      "id": "_yytdQeXoUs"
     }
-  ]
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
 }

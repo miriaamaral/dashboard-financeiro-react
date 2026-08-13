@@ -1,0 +1,128 @@
+/* O Fundo Escuro que cobre a tela toda */
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background: rgba(15, 23, 42, 0.6);
+  backdrop-filter: blur(4px); /* Desfoca o fundo para focar a atenção */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 999;
+}
+
+.modal-content {
+  width: 100%;
+  max-width: 500px;
+  background: var(--color-surface);
+  padding: 3rem;
+  border-radius: var(--border-radius-md);
+  position: relative;
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+}
+
+.modal-close {
+  position: absolute;
+  right: 1.5rem;
+  top: 1.5rem;
+  border: 0;
+  background: transparent;
+  color: var(--color-text-muted);
+  cursor: pointer;
+  transition: filter 0.2s;
+}
+
+.modal-close:hover {
+  filter: brightness(0.7);
+}
+
+.modal-content h2 {
+  color: var(--color-text-main);
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.modal-content form input {
+  width: 100%;
+  padding: 1rem 1.25rem;
+  border-radius: 8px;
+  border: 1px solid #E2E8F0;
+  background: var(--color-background);
+  font-size: 1rem;
+  font-family: inherit;
+  color: var(--color-text-main);
+  margin-bottom: 1rem;
+  transition: border-color 0.2s;
+}
+
+.modal-content form input:focus {
+  outline: none;
+  border-color: var(--color-primary, #10B981);
+}
+
+/* Botões de Seleção de Tipo */
+.transaction-type-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.type-button {
+  height: 4rem;
+  border: 1px solid #E2E8F0;
+  border-radius: 8px;
+  background: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1rem;
+  font-weight: 500;
+  color: var(--color-text-main);
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.type-button.active-income {
+  background: var(--color-income-bg);
+  border-color: var(--color-income);
+  color: var(--color-income);
+}
+
+.type-button.active-expense {
+  background: var(--color-expense-bg);
+  border-color: var(--color-expense);
+  color: var(--color-expense);
+}
+
+/* Botão principal de submissão (CTA) */
+.submit-button {
+  width: 100%;
+  padding: 1.25rem;
+  background: var(--color-primary, #10B981);
+  color: #FFF;
+  border-radius: 8px;
+  border: 0;
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-top: 1.5rem;
+  cursor: pointer;
+  transition: filter 0.2s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.submit-button:hover {
+  filter: brightness(0.9);
+}
+
+@media (max-width: 600px) {
+  .modal-content {
+    margin: 1rem;
+    padding: 2rem;
+  }
+}
